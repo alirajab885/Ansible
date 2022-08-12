@@ -1,5 +1,5 @@
 - name: httpd is there
-  hosts: 194.195.117.63
+  hosts: rajabhost
   tasks:
     - name: ensure httpd is installed
       apt: name=httpd  state=latest
