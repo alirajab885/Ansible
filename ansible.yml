@@ -1,5 +1,5 @@
 - name: httpd is there
   hosts: rajabhost
   tasks:
-    - name: ensure httpd is installed
-      apt: name=httpd  state=latest
+    - name: install apache2
+        apt: name=apache2 update_cache=yes state=latest
