@@ -1,5 +1,4 @@
 - name: httpd is there
-  hosts: ansible_host
   tasks:
     - name: ensure httpd is installed
       apt: name=httpd  state=latest
