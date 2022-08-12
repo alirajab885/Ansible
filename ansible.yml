@@ -1,5 +1,5 @@
 - name: httpd is there
-  hosts: rajabhost
+  hosts: ansible_host
   tasks:
     - name: ensure httpd is installed
       apt: name=httpd  state=latest
