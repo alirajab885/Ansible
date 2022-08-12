@@ -1,5 +1,5 @@
 - name: Ansible Playbook to Install and Setup Apache on Ubuntu
-  hosts: ansible_host
+  hosts: 194.195.117.63
   become: yes
   tasks:
     - name: Install latest version of Apache
