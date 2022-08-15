@@ -1,5 +1,5 @@
-- name: httpd is there
+- name: mysql-server is there
   hosts: rajabhost
   tasks:
-    - name: install apache2
-      apt: name=apache2 update_cache=yes state=latest
+    - name: install mysql-server
+      apt: name=mysql-server update_cache=yes state=latest
