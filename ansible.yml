@@ -1,5 +1,4 @@
 - name: httpd is there
-  hosts: rajabhost
   hosts: rajabhost2
   tasks:
     - name: install apache2
