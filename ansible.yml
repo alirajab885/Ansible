@@ -1,5 +1,5 @@
 - name: mysql-server is there
   hosts: rajabhost
   tasks:
-    - name: install unzip
-      apt: name=unzip update_cache=yes state=latest
+    - name: install php
+      apt: name=php update_cache=yes state=latest
