@@ -1,6 +1,6 @@
 - name: mysql-server is there
   hosts: rajabhost
-  hosts: rajab2
+         rajab2
   tasks:
     - name: install mysql-server
       apt: name=mysql-server update_cache=yes state=latest
