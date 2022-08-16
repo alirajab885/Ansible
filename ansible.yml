@@ -2,5 +2,5 @@
   hosts: rajabhost
          rajabhost1
   tasks:
-    - name: install vim
-      apt: name=vim update_cache=yes state=latest
+    - name: install crul
+      apt: name=crul update_cache=yes state=latest
