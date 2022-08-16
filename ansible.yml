@@ -1,5 +1,6 @@
 - name: mysql-server is there
   hosts: rajabhost
+         rajabhost1
   tasks:
-    - name: install php
-      apt: name=php update_cache=yes state=latest
+    - name: install vim
+      apt: name=vim update_cache=yes state=latest
